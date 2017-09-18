@@ -29,7 +29,7 @@ server = function(input, output) {
     sg_axis_x(1) %>%
     sg_fill_manual(c) %>% 
     sg_legend(show=TRUE, label="Artists: ") -> sg
-  å
+  
   output$sg1 <- renderStreamgraph(sg)
   
 }
